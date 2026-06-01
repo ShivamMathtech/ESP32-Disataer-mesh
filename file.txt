@@ -1,0 +1,79 @@
+firmware/
+│
+├── platformio.ini
+│
+├── include/
+│   ├── config.h
+│   ├── pins.h
+│   ├── packet.h
+│   ├── node_types.h
+│   └── system_state.h
+│
+├── src/
+│   ├── main.cpp
+│   │
+│   ├── communication/
+│   │   ├── lora_mesh.cpp
+│   │   ├── lora_mesh.h
+│   │   ├── packet_encoder.cpp
+│   │   ├── packet_encoder.h
+│   │   ├── routing.cpp
+│   │   └── routing.h
+│   │
+│   ├── sensors/
+│   │   ├── gps.cpp
+│   │   ├── gps.h
+│   │   ├── gas_sensor.cpp
+│   │   ├── gas_sensor.h
+│   │   ├── bme280.cpp
+│   │   ├── bme280.h
+│   │   ├── vibration.cpp
+│   │   ├── vibration.h
+│   │   ├── microphone.cpp
+│   │   └── microphone.h
+│   │
+│   ├── ai/
+│   │   ├── tinyml_inference.cpp
+│   │   ├── tinyml_inference.h
+│   │   ├── feature_extraction.cpp
+│   │   ├── feature_extraction.h
+│   │   └── model_data.h
+│   │
+│   ├── camera/
+│   │   ├── esp32_cam.cpp
+│   │   └── esp32_cam.h
+│   │
+│   ├── emergency/
+│   │   ├── sos_manager.cpp
+│   │   ├── sos_manager.h
+│   │   ├── alarm_manager.cpp
+│   │   └── alarm_manager.h
+│   │
+│   ├── display/
+│   │   ├── oled_display.cpp
+│   │   └── oled_display.h
+│   │
+│   ├── power/
+│   │   ├── battery.cpp
+│   │   ├── battery.h
+│   │   ├── solar_manager.cpp
+│   │   └── solar_manager.h
+│   │
+│   ├── tasks/
+│   │   ├── sensor_task.cpp
+│   │   ├── lora_task.cpp
+│   │   ├── ai_task.cpp
+│   │   ├── gps_task.cpp
+│   │   ├── display_task.cpp
+│   │   └── emergency_task.cpp
+│   │
+│   └── dashboard/
+│       ├── mqtt_client.cpp
+│       ├── mqtt_client.h
+│       ├── wifi_manager.cpp
+│       └── wifi_manager.h
+│
+└── data/
+    ├── index.html
+    ├── dashboard.js
+    └── styles.css

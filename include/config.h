@@ -1,0 +1,43 @@
+#pragma once
+
+#define PROJECT_NAME "DisasterMesh"
+
+#define NODE_ID 1
+
+#define GATEWAY_NODE_ID 0
+
+#define LORA_FREQUENCY 433E6
+
+#define HEARTBEAT_INTERVAL_MS 5000
+
+#define SENSOR_INTERVAL_MS 1000
+
+#define GPS_INTERVAL_MS 500
+
+#define DISPLAY_INTERVAL_MS 1000
+
+#define AI_INTERVAL_MS 250
+
+#define LOW_BATTERY_THRESHOLD 20
+
+#define MAX_PACKET_SIZE 256
+
+#define MAX_ROUTE_ENTRIES 32
+
+#define WIFI_SSID "DisasterMesh"
+
+#define WIFI_PASSWORD "12345678"
+
+#define MQTT_SERVER "192.168.1.100"
+
+#define MQTT_PORT 1883
+
+#define MQTT_TOPIC "disaster/telemetry"
+
+#define OLED_WIDTH 128
+
+#define OLED_HEIGHT 64
+
+#define AUDIO_SAMPLE_RATE 16000
+
+#define AUDIO_BUFFER_SIZE 1024
